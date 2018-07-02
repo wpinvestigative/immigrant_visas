@@ -4,15 +4,20 @@
 
 ----
 
-R Shiny application to explore Immigrant Visa data from the U.S. Department of State.
+R Shiny application to explore immigrant visa data from the U.S. State Department.
 
 ![](shiny_app.png)
 
 The department [releases data](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics.html) annually and monthly in PDFs.
 
-The data has been scraped, cleaned, and organized in a downloadable format along with the app.
+The data has been scraped, cleaned and organized in a downloadable format along with the app.
 
-The repo can be downloaded and explored manually or the application can be run locally with the following command: `shiny::runGitHub("immigrant_visas", "wpinvestigative")`
+The repo can be downloaded and explored manually or the application can be run locally with the following command: 
+
+```
+install.packages("shiny")
+shiny::runGitHub("immigrant_visas", "wpinvestigative")
+```
 
 # About the folders in this repo
 

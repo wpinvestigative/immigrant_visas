@@ -16,12 +16,12 @@ The repo can be downloaded and explored manually.
 
 To run the app, you must have [R installed](https://cloud.r-project.org/) first.
 
-**Via R terminal**
+**Via terminal**
 
-In the terminal, run
+After you've installed R, In the terminal, run
 
 ```
-R "install.packages('shiny')"
+R -e "install.packages('shiny', repos='http://cran.rstudio.com/')"
 R -e "shiny::runGitHub('immigrant_visas', 'wpinvestigative', launch.browser=TRUE)"
 ```
 

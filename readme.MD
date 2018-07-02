@@ -12,7 +12,7 @@ The department [releases data](https://travel.state.gov/content/travel/en/legal/
 
 The data has been scraped, cleaned, and organized in a downloadable format along with the app.
 
-The repo can be downloaded and explored manuay or the application can be run locally with the following command: `shiny::runGitHub("immigrant-visas", "wpinvestigative")`
+The repo can be downloaded and explored manuay or the application can be run locally with the following command: `shiny::runGitHub("immigrant_visas", "wpinvestigative")`
 
 # About the folders in this repo
 

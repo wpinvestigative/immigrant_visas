@@ -12,12 +12,27 @@ The department [releases data](https://travel.state.gov/content/travel/en/legal/
 
 The data has been scraped, cleaned and organized in a downloadable format along with the app.
 
-The repo can be downloaded and explored manually or the application can be run locally with the following command: 
+The repo can be downloaded and explored manually. 
+
+To run the app, you must have [R installed](https://cloud.r-project.org/) first.
+
+**Via R terminal**
+
+In the terminal, run
 
 ```
-install.packages("shiny")
+R -e “shiny::runGitHub(‘immigrant_visas’, ‘wpinvestigative’, launch.browser=TRUE)”
+```
+
+**Via RStudio**
+
+The application can be run locally with the following command in [R Studio](https://www.rstudio.com/products/rstudio/download/#download): 
+
+```
 shiny::runGitHub("immigrant_visas", "wpinvestigative")
 ```
+
+----
 
 # About the folders in this repo
 

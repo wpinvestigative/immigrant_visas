@@ -17,7 +17,7 @@ The repo can be downloaded and explored manually or the application can be run l
 # About the folders in this repo
 
 * **[scripts](scripts)** - Exploratory data analysis
-* **[raw_data](raw_data)** - Raw data or consolidated spreadsheets from scraped PDFS
+* **[raw_data](raw_data)** - Raw data or consolidated spreadsheets from scraped PDFs
 * **[output_data](output_data)** - Cleaned data transformed from raw data used for analysis and the Shiny App
 
 

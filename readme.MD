@@ -21,7 +21,8 @@ To run the app, you must have [R installed](https://cloud.r-project.org/) first.
 In the terminal, run
 
 ```
-R -e “shiny::runGitHub(‘immigrant_visas’, ‘wpinvestigative’, launch.browser=TRUE)”
+R "install.packages('shiny')"
+R -e "shiny::runGitHub('immigrant_visas', 'wpinvestigative', launch.browser=TRUE)"
 ```
 
 **Via RStudio**
@@ -29,6 +30,7 @@ R -e “shiny::runGitHub(‘immigrant_visas’, ‘wpinvestigative’, launch.br
 The application can be run locally with the following command in [R Studio](https://www.rstudio.com/products/rstudio/download/#download): 
 
 ```
+install.packages("shiny")
 shiny::runGitHub("immigrant_visas", "wpinvestigative")
 ```
 

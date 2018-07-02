@@ -4,7 +4,7 @@
 
 ----
 
-R Shiny application to explore Immigrant Visa data from the U.S Department of State.
+R Shiny application to explore Immigrant Visa data from the U.S. Department of State.
 
 ![](shiny_app.png)
 

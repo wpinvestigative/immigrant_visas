@@ -14,7 +14,7 @@ The data has been scraped, cleaned and organized in a downloadable format along 
 
 The repo can be downloaded and explored manually. 
 
-To run the app, you must have [R installed](https://cloud.r-project.org/) first.
+To run the app, you must have [R version 3.5 or later](https://cloud.r-project.org/) installed first.
 
 **Via terminal**
 
@@ -30,7 +30,7 @@ R -e "shiny::runGitHub('immigrant_visas', 'wpinvestigative', launch.browser=TRUE
 The application can be run locally with the following command in [R Studio](https://www.rstudio.com/products/rstudio/download/#download): 
 
 ```
-install.packages("shiny")
+install.packages("shiny", repos="http://cran.rstudio.com/")
 shiny::runGitHub("immigrant_visas", "wpinvestigative")
 ```
 

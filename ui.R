@@ -1,6 +1,6 @@
 packages <- c("shiny", "tidyverse", "stringr", "shinythemes", "shinyWidgets", "DT")
 if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
-  install.packages(setdiff(packages, rownames(installed.packages())))  
+  install.packages(setdiff(packages, rownames(installed.packages())), repos = "http://cran.us.r-project.org")  
 }
 
 library(tidyverse)
